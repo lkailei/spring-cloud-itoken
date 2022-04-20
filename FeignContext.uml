@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.cloud.openfeign.FeignContext</OriginalElement>
+  <nodes>
+    <node x="232.0" y="160.0">org.springframework.cloud.context.named.NamedContextFactory</node>
+    <node x="641.6818181818181" y="430.0">org.springframework.cloud.openfeign.FeignClientsRegistrar</node>
+    <node x="422.1174242424242" y="0.0">org.springframework.beans.factory.Aware</node>
+    <node x="651.6477272727273" y="260.0">feign.Feign</node>
+    <node x="40.0" y="546.701171875">java.util.Base64.Decoder</node>
+    <node x="209.0" y="531.0">java.beans.Encoder</node>
+    <node x="495.33333333333337" y="160.0">org.springframework.cloud.openfeign.FeignClientSpecification</node>
+    <node x="91.83333333333331" y="260.0">org.springframework.beans.factory.FactoryBean</node>
+    <node x="252.0" y="80.0">org.springframework.beans.factory.DisposableBean</node>
+    <node x="347.3333333333333" y="340.0">org.springframework.cloud.openfeign.FeignAutoConfiguration</node>
+    <node x="633.6477272727273" y="340.0">feign.ReflectiveFeign</node>
+    <node x="501.33333333333337" y="80.0">org.springframework.cloud.context.named.NamedContextFactory.Specification</node>
+    <node x="45.916666666666686" y="340.0">org.springframework.cloud.openfeign.FeignClientFactoryBean</node>
+    <node x="298.36742424242425" y="260.0">org.springframework.cloud.openfeign.FeignContext</node>
+    <node x="0.0" y="80.0">org.springframework.context.ApplicationContextAware</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.cloud.openfeign.FeignClientsRegistrar" target="org.springframework.beans.factory.Aware">
+      <point x="72.00000000000003" y="-15.0" />
+      <point x="821.6818181818182" y="410.0" />
+      <point x="823.1477272727273" y="410.0" />
+      <point x="823.1477272727273" y="55.0" />
+      <point x="488.1174242424242" y="55.0" />
+      <point x="22.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.cloud.context.named.NamedContextFactory" target="org.springframework.beans.factory.DisposableBean">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.cloud.openfeign.FeignClientsRegistrar" target="org.springframework.cloud.openfeign.FeignClientsRegistrar">
+      <point x="0.0" y="15.0" />
+      <point x="749.6818181818181" y="480.0" />
+      <point x="621.6818181818181" y="480.0" />
+      <point x="621.6818181818181" y="445.0" />
+      <point x="-108.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.cloud.context.named.NamedContextFactory" target="org.springframework.context.ApplicationContextAware">
+      <point x="-66.66666666666669" y="-15.0" />
+      <point x="265.3333333333333" y="135.0" />
+      <point x="174.0" y="135.0" />
+      <point x="58.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.context.ApplicationContextAware" target="org.springframework.beans.factory.Aware">
+      <point x="0.0" y="-15.0" />
+      <point x="116.0" y="55.0" />
+      <point x="444.1174242424242" y="55.0" />
+      <point x="-22.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.cloud.openfeign.FeignClientsRegistrar" target="org.springframework.cloud.openfeign.FeignClientFactoryBean">
+      <point x="-71.99999999999997" y="-15.0" />
+      <point x="677.6818181818182" y="410.0" />
+      <point x="213.91666666666669" y="410.0" />
+      <point x="56.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.cloud.openfeign.FeignClientSpecification" target="org.springframework.cloud.context.named.NamedContextFactory.Specification">
+      <point x="0.0" y="-15.0" />
+      <point x="38.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.cloud.openfeign.FeignClientFactoryBean" target="org.springframework.context.ApplicationContextAware">
+      <point x="-74.66666666666669" y="-15.0" />
+      <point x="83.25" y="320.0" />
+      <point x="58.0" y="320.0" />
+      <point x="-58.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.cloud.openfeign.FeignAutoConfiguration" target="feign.Feign">
+      <point x="84.0" y="-15.0" />
+      <point x="543.3333333333333" y="320.0" />
+      <point x="673.6477272727273" y="320.0" />
+      <point x="-22.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.cloud.openfeign.FeignAutoConfiguration" target="org.springframework.cloud.openfeign.FeignClientSpecification">
+      <point x="28.0" y="-15.0" />
+      <point x="487.3333333333333" y="310.0" />
+      <point x="585.3977272727273" y="310.0" />
+      <point x="585.3977272727273" y="240.0" />
+      <point x="645.3333333333334" y="240.0" />
+      <point x="30.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.cloud.openfeign.FeignClientsRegistrar" target="org.springframework.cloud.openfeign.FeignClientSpecification">
+      <point x="2.8421709430404007E-14" y="-15.0" />
+      <point x="749.6818181818182" y="410.0" />
+      <point x="812.1477272727273" y="410.0" />
+      <point x="812.1477272727273" y="240.0" />
+      <point x="705.3333333333334" y="240.0" />
+      <point x="90.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.cloud.openfeign.FeignContext" target="org.springframework.cloud.openfeign.FeignClientSpecification">
+      <point x="48.0" y="-15.0" />
+      <point x="418.36742424242425" y="230.0" />
+      <point x="585.3333333333334" y="230.0" />
+      <point x="-30.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.cloud.openfeign.FeignClientFactoryBean" target="org.springframework.cloud.openfeign.FeignContext">
+      <point x="74.66666666666669" y="-15.0" />
+      <point x="232.58333333333337" y="320.0" />
+      <point x="322.36742424242425" y="320.0" />
+      <point x="-48.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.cloud.openfeign.FeignClientFactoryBean" target="org.springframework.cloud.openfeign.FeignClientFactoryBean">
+      <point x="-56.0" y="15.0" />
+      <point x="101.91666666666669" y="390.0" />
+      <point x="25.916666666666686" y="390.0" />
+      <point x="25.916666666666686" y="355.0" />
+      <point x="-112.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.cloud.openfeign.FeignAutoConfiguration" target="org.springframework.cloud.openfeign.FeignContext">
+      <point x="-84.0" y="-15.0" />
+      <point x="375.3333333333333" y="320.0" />
+      <point x="370.36742424242425" y="320.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.beans.Encoder" target="java.beans.Encoder">
+      <point x="0.0" y="15.0" />
+      <point x="261.0" y="581.0" />
+      <point x="189.0" y="581.0" />
+      <point x="189.0" y="546.0" />
+      <point x="-52.0" y="-0.0" />
+    </edge>
+    <edge source="java.util.Base64.Decoder" target="java.util.Base64.Decoder">
+      <point x="34.66666666666666" y="15.0" />
+      <point x="126.66666666666666" y="616.701171875" />
+      <point x="0.0" y="616.701171875" />
+      <point x="0.0" y="551.701171875" />
+      <point x="-52.0" y="-10.0" />
+    </edge>
+    <edge source="org.springframework.cloud.context.named.NamedContextFactory" target="org.springframework.cloud.context.named.NamedContextFactory.Specification">
+      <point x="66.66666666666669" y="-15.0" />
+      <point x="398.6666666666667" y="135.0" />
+      <point x="539.3333333333334" y="135.0" />
+      <point x="-38.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.cloud.openfeign.FeignClientFactoryBean" target="org.springframework.beans.factory.FactoryBean">
+      <point x="0.0" y="-15.0" />
+      <point x="157.91666666666669" y="320.0" />
+      <point x="159.83333333333331" y="320.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.cloud.openfeign.FeignContext" target="org.springframework.cloud.context.named.NamedContextFactory">
+      <point x="0.0" y="-15.0" />
+      <point x="370.36742424242425" y="240.0" />
+      <point x="382.0" y="240.0" />
+      <point x="50.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.cloud.openfeign.FeignClientSpecification" target="org.springframework.cloud.openfeign.FeignClientSpecification">
+      <point x="-90.0" y="15.0" />
+      <point x="525.3333333333334" y="210.0" />
+      <point x="475.33333333333337" y="210.0" />
+      <point x="475.33333333333337" y="175.0" />
+      <point x="-120.0" y="-0.0" />
+    </edge>
+    <edge source="feign.ReflectiveFeign" target="feign.Feign">
+      <point x="0.0" y="-15.0" />
+      <point x="22.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="413.5" y="303.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
